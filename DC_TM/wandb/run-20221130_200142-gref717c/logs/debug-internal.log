@@ -1,0 +1,1220 @@
+2022-11-30 20:01:42,335 INFO    StreamThr :22244 [internal.py:wandb_internal():88] W&B internal server running at pid: 22244, started at: 2022-11-30 20:01:42.335593
+2022-11-30 20:01:42,337 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: status
+2022-11-30 20:01:42,339 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: status
+2022-11-30 20:01:42,344 DEBUG   SenderThread:22244 [sender.py:send():303] send: header
+2022-11-30 20:01:42,345 INFO    WriterThread:22244 [datastore.py:open_for_write():75] open: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\run-gref717c.wandb
+2022-11-30 20:01:42,378 DEBUG   SenderThread:22244 [sender.py:send():303] send: run
+2022-11-30 20:01:42,668 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: check_version
+2022-11-30 20:01:42,669 INFO    SenderThread:22244 [dir_watcher.py:__init__():216] watching files in: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files
+2022-11-30 20:01:42,669 INFO    SenderThread:22244 [sender.py:_start_run_threads():928] run started: gref717c with start time 1669856502.331592
+2022-11-30 20:01:42,669 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:01:42,670 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:01:42,670 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: check_version
+2022-11-30 20:01:42,790 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: run_start
+2022-11-30 20:01:42,810 DEBUG   HandlerThread:22244 [system_info.py:__init__():31] System info init
+2022-11-30 20:01:42,810 DEBUG   HandlerThread:22244 [system_info.py:__init__():46] System info init done
+2022-11-30 20:01:42,810 INFO    HandlerThread:22244 [system_monitor.py:start():150] Starting system monitor
+2022-11-30 20:01:42,810 INFO    SystemMonitor:22244 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-30 20:01:42,810 INFO    HandlerThread:22244 [system_monitor.py:probe():168] Collecting system info
+2022-11-30 20:01:42,815 INFO    SystemMonitor:22244 [interfaces.py:start():168] Started cpu
+2022-11-30 20:01:42,816 INFO    SystemMonitor:22244 [interfaces.py:start():168] Started disk
+2022-11-30 20:01:42,816 INFO    SystemMonitor:22244 [interfaces.py:start():168] Started gpu
+2022-11-30 20:01:42,817 INFO    SystemMonitor:22244 [interfaces.py:start():168] Started memory
+2022-11-30 20:01:42,825 INFO    SystemMonitor:22244 [interfaces.py:start():168] Started network
+2022-11-30 20:01:42,834 DEBUG   HandlerThread:22244 [system_info.py:probe():195] Probing system
+2022-11-30 20:01:42,835 DEBUG   HandlerThread:22244 [system_info.py:_probe_git():180] Probing git
+2022-11-30 20:01:42,928 DEBUG   HandlerThread:22244 [system_info.py:_probe_git():188] Probing git done
+2022-11-30 20:01:42,928 DEBUG   HandlerThread:22244 [system_info.py:probe():241] Probing system done
+2022-11-30 20:01:42,928 DEBUG   HandlerThread:22244 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.10.8', 'heartbeatAt': '2022-12-01T01:01:42.834367', 'startedAt': '2022-12-01T01:01:42.316589', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Documents/M1/ECE1512/PB/DC_TM/distill_CIFAR10.ipynb', 'root': 'C:/Users/zixua/Documents/M1/ECE1512/PB/DC_TM', 'git': {'remote': 'https://github.com/GeorgeCazenavette/mtt-distillation.git', 'commit': 'c365f4257117ccc0abf163e09f692be94634ed18'}, 'email': 'zixuanuw@gmail.com', 'host': 'Simon', 'username': 'zixua', 'executable': 'C:\\Users\\zixua\\anaconda3\\envs\\test1\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3201.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 3201.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'total': 457.44433212280273, 'used': 316.21168518066406}, 'gpu': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.351802825927734}}
+2022-11-30 20:01:42,929 INFO    HandlerThread:22244 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-30 20:01:42,929 INFO    HandlerThread:22244 [system_monitor.py:probe():181] Publishing system info
+2022-11-30 20:01:42,929 DEBUG   HandlerThread:22244 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-30 20:01:42,930 DEBUG   HandlerThread:22244 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-30 20:01:42,930 DEBUG   HandlerThread:22244 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-30 20:01:42,932 ERROR   HandlerThread:22244 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-11-30 20:01:42,934 DEBUG   HandlerThread:22244 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-30 20:01:42,934 INFO    HandlerThread:22244 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-30 20:01:43,002 DEBUG   SenderThread:22244 [sender.py:send():303] send: files
+2022-11-30 20:01:43,002 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-30 20:01:43,015 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:01:43,016 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:01:43,128 DEBUG   SenderThread:22244 [sender.py:send():303] send: telemetry
+2022-11-30 20:01:43,498 INFO    Thread-22 :22244 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmph87t5uh8wandb\3j3t1grt-wandb-metadata.json
+2022-11-30 20:01:43,673 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\conda-environment.yaml
+2022-11-30 20:01:43,673 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\requirements.txt
+2022-11-30 20:01:43,673 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-metadata.json
+2022-11-30 20:01:43,674 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:43,674 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:01:45,691 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:47,702 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:49,719 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:51,729 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:52,972 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:01:53,747 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:56,535 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:01:56,537 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:01:56,537 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:01:56,538 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:01:56,761 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:01:57,775 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:01:58,134 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:01:58,134 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:01:59,798 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:01,820 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:03,836 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:05,860 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:07,875 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:09,892 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:11,909 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:12,911 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\config.yaml
+2022-11-30 20:02:13,286 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:02:13,286 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:02:13,922 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:15,935 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:17,961 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:19,987 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:22,014 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:24,042 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:26,068 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:28,077 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:28,409 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:02:28,409 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:02:30,082 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:32,103 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:34,109 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:36,122 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:38,139 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:40,157 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:42,166 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:42,835 DEBUG   SystemMonitor:22244 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-30 20:02:42,837 DEBUG   SenderThread:22244 [sender.py:send():303] send: stats
+2022-11-30 20:02:43,591 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:02:43,591 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:02:44,187 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:46,193 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:48,206 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:50,219 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:52,235 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:54,252 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:56,271 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:02:58,691 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:58,692 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Pixels': {'_type': 'histogram', 'values': [230, 1235, 1293, 2274, 2890, 3398, 4067, 4346, 4953, 5163, 5407, 5791, 5856, 6272, 6322, 6329, 6355, 6721, 6814, 6945, 7110, 7076, 7094, 6817, 7068, 7311, 7063, 6867, 6966, 7127, 7024, 6547, 6497, 6454, 6555, 6606, 6235, 5868, 5906, 5875, 6075, 5570, 5049, 4465, 4186, 4017, 3958, 3989, 3801, 3677, 3623, 3386, 3034, 2422, 2338, 2821, 2609, 3088, 2389, 2315, 3276, 2204, 743, 1438], 'bins': [-2.5007777214050293, -2.4180736541748047, -2.33536958694458, -2.2526652812957764, -2.1699612140655518, -2.087257146835327, -2.0045530796051025, -1.9218488931655884, -1.8391447067260742, -1.7564406394958496, -1.673736572265625, -1.5910323858261108, -1.5083283185958862, -1.425624132156372, -1.3429200649261475, -1.2602158784866333, -1.1775118112564087, -1.094807744026184, -1.01210355758667, -0.9293994307518005, -0.8466953039169312, -0.7639912366867065, -0.6812871098518372, -0.5985829830169678, -0.5158788561820984, -0.433174729347229, -0.3504706025123596, -0.2677665054798126, -0.18506237864494324, -0.10235825926065445, -0.01965413987636566, 0.06304997950792313, 0.14575409889221191, 0.2284582257270813, 0.3111623525619507, 0.3938664495944977, 0.47657057642936707, 0.5592746734619141, 0.6419788002967834, 0.7246829271316528, 0.8073870539665222, 0.8900911808013916, 0.972795307636261, 1.0554994344711304, 1.138203501701355, 1.2209076881408691, 1.3036117553710938, 1.386315941810608, 1.4690200090408325, 1.5517240762710571, 1.6344282627105713, 1.717132329940796, 1.79983651638031, 1.8825405836105347, 1.9652447700500488, 2.0479488372802734, 2.130652904510498, 2.2133569717407227, 2.2960612773895264, 2.378765344619751, 2.4614694118499756, 2.5441734790802, 2.626877784729004, 2.7095818519592285, 2.792285919189453]}, '_timestamp': 1669856578.689}.
+2022-11-30 20:02:58,725 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:02:58,725 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:02:59,123 DEBUG   SenderThread:22244 [sender.py:send():303] send: files
+2022-11-30 20:02:59,124 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file media\images\Synthetic_Images_1_f8b8228528313d943a2c.png with policy now
+2022-11-30 20:02:59,125 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,125 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Synthetic_Images': {'_type': 'image-file', 'sha256': 'f8b8228528313d943a2c00e24d269d516199e393feca3af82133d32aeb2c3d88', 'size': 355959, 'path': 'media/images/Synthetic_Images_1_f8b8228528313d943a2c.png', 'format': 'png', 'width': 1302, 'height': 1302}, '_timestamp': 1669856579.1236022}.
+2022-11-30 20:02:59,132 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,132 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Synthetic_Pixels': {'_type': 'histogram', 'values': [230, 1235, 1293, 2274, 2890, 3398, 4067, 4346, 4953, 5163, 5407, 5791, 5856, 6272, 6322, 6329, 6355, 6721, 6814, 6945, 7110, 7076, 7094, 6817, 7068, 7311, 7063, 6867, 6966, 7127, 7024, 6547, 6497, 6454, 6555, 6606, 6235, 5868, 5906, 5875, 6075, 5570, 5049, 4465, 4186, 4017, 3958, 3989, 3801, 3677, 3623, 3386, 3034, 2422, 2338, 2821, 2609, 3088, 2389, 2315, 3276, 2204, 743, 1438], 'bins': [-2.5007777214050293, -2.4180736541748047, -2.33536958694458, -2.2526652812957764, -2.1699612140655518, -2.087257146835327, -2.0045530796051025, -1.9218488931655884, -1.8391447067260742, -1.7564406394958496, -1.673736572265625, -1.5910323858261108, -1.5083283185958862, -1.425624132156372, -1.3429200649261475, -1.2602158784866333, -1.1775118112564087, -1.094807744026184, -1.01210355758667, -0.9293994307518005, -0.8466953039169312, -0.7639912366867065, -0.6812871098518372, -0.5985829830169678, -0.5158788561820984, -0.433174729347229, -0.3504706025123596, -0.2677665054798126, -0.18506237864494324, -0.10235825926065445, -0.01965413987636566, 0.06304997950792313, 0.14575409889221191, 0.2284582257270813, 0.3111623525619507, 0.3938664495944977, 0.47657057642936707, 0.5592746734619141, 0.6419788002967834, 0.7246829271316528, 0.8073870539665222, 0.8900911808013916, 0.972795307636261, 1.0554994344711304, 1.138203501701355, 1.2209076881408691, 1.3036117553710938, 1.386315941810608, 1.4690200090408325, 1.5517240762710571, 1.6344282627105713, 1.717132329940796, 1.79983651638031, 1.8825405836105347, 1.9652447700500488, 2.0479488372802734, 2.130652904510498, 2.2133569717407227, 2.2960612773895264, 2.378765344619751, 2.4614694118499756, 2.5441734790802, 2.626877784729004, 2.7095818519592285, 2.792285919189453]}, '_timestamp': 1669856579.1289065}.
+2022-11-30 20:02:59,297 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images\Synthetic_Images_1_f8b8228528313d943a2c.png
+2022-11-30 20:02:59,297 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images
+2022-11-30 20:02:59,297 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media
+2022-11-30 20:02:59,321 DEBUG   SenderThread:22244 [sender.py:send():303] send: files
+2022-11-30 20:02:59,322 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file media\images\Clipped_Synthetic_Images/std_2.5_1_f8b8228528313d943a2c.png with policy now
+2022-11-30 20:02:59,323 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,323 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Clipped_Synthetic_Images/std_2.5': {'_type': 'image-file', 'sha256': 'f8b8228528313d943a2c00e24d269d516199e393feca3af82133d32aeb2c3d88', 'size': 355959, 'path': 'media/images/Clipped_Synthetic_Images/std_2.5_1_f8b8228528313d943a2c.png', 'format': 'png', 'width': 1302, 'height': 1302}, '_timestamp': 1669856579.3213022}.
+2022-11-30 20:02:59,324 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,324 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Synthetic_LR': 0.009873230010271072, '_timestamp': 1669856579.3213022}.
+2022-11-30 20:02:59,324 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,772 INFO    Thread-23 :22244 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmph87t5uh8wandb\2d3bk2w0-media/images/Synthetic_Images_1_f8b8228528313d943a2c.png
+2022-11-30 20:02:59,951 INFO    Thread-24 :22244 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmph87t5uh8wandb\1j8bdr23-media/images/Clipped_Synthetic_Images/std_2.5_1_f8b8228528313d943a2c.png
+2022-11-30 20:02:59,996 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,997 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:02:59,998 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:02:59,998 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,998 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 1 < 2. Dropping entry: {'Synthetic_LR': 0.009747646749019623, '_timestamp': 1669856579.995713}.
+2022-11-30 20:02:59,999 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:02:59,999 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:00,312 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:00,312 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:00,312 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images\Clipped_Synthetic_Images\std_2.5_1_f8b8228528313d943a2c.png
+2022-11-30 20:03:00,312 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images
+2022-11-30 20:03:00,312 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images\Clipped_Synthetic_Images
+2022-11-30 20:03:00,660 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:00,661 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:00,661 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:00,661 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:00,662 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 2 < 3. Dropping entry: {'Synthetic_LR': 0.009644377045333385, '_timestamp': 1669856580.6593368}.
+2022-11-30 20:03:00,662 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:00,662 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:01,321 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:01,322 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:01,322 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:01,323 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:01,323 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 3 < 4. Dropping entry: {'Synthetic_LR': 0.009569198824465275, '_timestamp': 1669856581.3207502}.
+2022-11-30 20:03:01,323 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:01,323 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:01,327 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:02,152 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:02,153 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:02,153 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:02,153 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:02,154 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 4 < 5. Dropping entry: {'Synthetic_LR': 0.009515194222331047, '_timestamp': 1669856582.1518226}.
+2022-11-30 20:03:02,154 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:02,154 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:02,329 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:02,329 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:02,813 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:02,814 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:02,814 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:02,815 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:02,815 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 5 < 6. Dropping entry: {'Synthetic_LR': 0.009476609528064728, '_timestamp': 1669856582.8126557}.
+2022-11-30 20:03:02,815 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:02,815 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:03,343 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:03,476 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:03,477 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:03,477 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:03,478 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:03,478 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 6 < 7. Dropping entry: {'Synthetic_LR': 0.009448351338505745, '_timestamp': 1669856583.475806}.
+2022-11-30 20:03:03,479 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:03,479 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:04,138 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:04,139 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:04,139 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:04,140 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:04,140 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 7 < 8. Dropping entry: {'Synthetic_LR': 0.00942913442850113, '_timestamp': 1669856584.1377437}.
+2022-11-30 20:03:04,140 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:04,140 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:04,345 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:04,811 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:04,812 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:04,813 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:04,813 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:04,813 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 8 < 9. Dropping entry: {'Synthetic_LR': 0.009413576684892178, '_timestamp': 1669856584.8098545}.
+2022-11-30 20:03:04,814 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:04,814 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:05,361 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:05,690 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:05,691 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:05,691 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:05,691 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:05,691 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 9 < 10. Dropping entry: {'Synthetic_LR': 0.009432253427803516, '_timestamp': 1669856585.6892333}.
+2022-11-30 20:03:05,691 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:05,692 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:06,351 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:06,352 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:06,352 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:06,353 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:06,353 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 10 < 11. Dropping entry: {'Synthetic_LR': 0.009453164413571358, '_timestamp': 1669856586.3516445}.
+2022-11-30 20:03:06,353 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:06,354 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:06,373 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:06,373 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:07,011 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:07,011 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:07,011 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:07,012 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:07,012 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 11 < 12. Dropping entry: {'Synthetic_LR': 0.009488820098340511, '_timestamp': 1669856587.0100563}.
+2022-11-30 20:03:07,012 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:07,012 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:07,388 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:07,668 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:07,669 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:07,669 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:07,669 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:07,670 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 12 < 13. Dropping entry: {'Synthetic_LR': 0.009514697827398777, '_timestamp': 1669856587.6671226}.
+2022-11-30 20:03:07,670 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:07,670 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:08,331 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:08,331 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:08,332 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:08,332 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:08,332 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 13 < 14. Dropping entry: {'Synthetic_LR': 0.00953245721757412, '_timestamp': 1669856588.330654}.
+2022-11-30 20:03:08,333 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:08,333 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:08,400 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:08,400 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:09,151 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:09,152 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:09,152 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:09,152 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:09,152 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 14 < 15. Dropping entry: {'Synthetic_LR': 0.00954920519143343, '_timestamp': 1669856589.1497371}.
+2022-11-30 20:03:09,153 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:09,153 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:09,404 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:09,814 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:09,815 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:09,815 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:09,816 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:09,816 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 15 < 16. Dropping entry: {'Synthetic_LR': 0.009558670222759247, '_timestamp': 1669856589.8125033}.
+2022-11-30 20:03:09,817 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:09,817 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:10,418 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:10,418 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:10,484 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:10,484 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:10,485 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:10,485 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:10,485 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 16 < 17. Dropping entry: {'Synthetic_LR': 0.009585045278072357, '_timestamp': 1669856590.4836502}.
+2022-11-30 20:03:10,486 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:10,486 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:11,142 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:11,143 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:11,144 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:11,144 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:11,144 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 17 < 18. Dropping entry: {'Synthetic_LR': 0.009605657309293747, '_timestamp': 1669856591.141466}.
+2022-11-30 20:03:11,144 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:11,145 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:11,419 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:11,798 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:11,799 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:11,799 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:11,800 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:11,800 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 18 < 19. Dropping entry: {'Synthetic_LR': 0.00961983110755682, '_timestamp': 1669856591.797468}.
+2022-11-30 20:03:11,801 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:11,801 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:12,421 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:12,633 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:12,634 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:12,634 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:12,635 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:12,635 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 19 < 20. Dropping entry: {'Synthetic_LR': 0.009645241312682629, '_timestamp': 1669856592.632678}.
+2022-11-30 20:03:12,635 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:12,635 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:12,845 DEBUG   SenderThread:22244 [sender.py:send():303] send: stats
+2022-11-30 20:03:13,300 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:13,301 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:13,302 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:13,302 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:13,302 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 20 < 21. Dropping entry: {'Synthetic_LR': 0.009669352322816849, '_timestamp': 1669856593.3000882}.
+2022-11-30 20:03:13,302 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:13,302 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:13,423 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:13,861 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:03:13,861 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:03:13,957 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:13,958 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:13,958 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 21 < 22. Dropping entry: {'Synthetic_LR': 0.009687289595603943, '_timestamp': 1669856593.9571211}.
+2022-11-30 20:03:13,959 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:13,989 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:13,989 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:13,990 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:14,437 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:14,438 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:14,617 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:14,619 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:14,619 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:14,619 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:14,620 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 22 < 23. Dropping entry: {'Synthetic_LR': 0.009701685048639774, '_timestamp': 1669856594.6168554}.
+2022-11-30 20:03:14,620 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:14,620 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:15,279 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:15,280 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:15,280 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:15,281 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:15,281 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 23 < 24. Dropping entry: {'Synthetic_LR': 0.009726731106638908, '_timestamp': 1669856595.278333}.
+2022-11-30 20:03:15,281 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:15,281 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:15,453 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:16,128 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:16,129 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:16,129 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:16,129 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:16,130 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 24 < 25. Dropping entry: {'Synthetic_LR': 0.00975577998906374, '_timestamp': 1669856596.127525}.
+2022-11-30 20:03:16,130 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:16,130 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:16,459 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:16,459 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:16,791 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:16,791 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:16,792 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:16,792 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:16,792 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 25 < 26. Dropping entry: {'Synthetic_LR': 0.009795796126127243, '_timestamp': 1669856596.7893748}.
+2022-11-30 20:03:16,793 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:16,793 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:17,448 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:17,449 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:17,449 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:17,450 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:17,450 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 26 < 27. Dropping entry: {'Synthetic_LR': 0.009824360720813274, '_timestamp': 1669856597.4470768}.
+2022-11-30 20:03:17,450 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:17,450 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:17,470 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:18,108 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:18,108 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:18,109 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:18,109 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:18,109 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 27 < 28. Dropping entry: {'Synthetic_LR': 0.009845582768321037, '_timestamp': 1669856598.106418}.
+2022-11-30 20:03:18,110 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:18,110 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:18,484 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:18,484 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:18,766 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:18,767 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:18,767 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:18,767 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:18,768 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 28 < 29. Dropping entry: {'Synthetic_LR': 0.009863425977528095, '_timestamp': 1669856598.7657814}.
+2022-11-30 20:03:18,768 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:18,768 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:19,498 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:19,706 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:19,707 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:19,707 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:19,707 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:19,707 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 29 < 30. Dropping entry: {'Synthetic_LR': 0.0098824268206954, '_timestamp': 1669856599.7050178}.
+2022-11-30 20:03:19,708 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:19,708 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:20,360 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:20,361 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:20,362 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:20,363 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:20,363 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:20,363 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 30 < 31. Dropping entry: {'Synthetic_LR': 0.009920903481543064, '_timestamp': 1669856600.360317}.
+2022-11-30 20:03:20,364 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:20,504 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:20,504 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:21,015 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:21,016 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:21,016 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:21,017 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:21,017 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 31 < 32. Dropping entry: {'Synthetic_LR': 0.009945385158061981, '_timestamp': 1669856601.0141222}.
+2022-11-30 20:03:21,017 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:21,017 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:21,510 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:21,670 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:21,670 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:21,671 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:21,671 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:21,671 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 32 < 33. Dropping entry: {'Synthetic_LR': 0.00996662862598896, '_timestamp': 1669856601.6685364}.
+2022-11-30 20:03:21,671 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:21,671 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:22,323 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:22,324 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:22,324 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:22,325 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:22,325 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 33 < 34. Dropping entry: {'Synthetic_LR': 0.00999316293746233, '_timestamp': 1669856602.322744}.
+2022-11-30 20:03:22,326 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:22,326 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:22,518 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:22,518 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:23,164 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:23,164 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:23,165 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:23,165 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:23,165 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 34 < 35. Dropping entry: {'Synthetic_LR': 0.010042336769402027, '_timestamp': 1669856603.1631365}.
+2022-11-30 20:03:23,165 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:23,165 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:23,525 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:23,818 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:23,820 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:23,820 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:23,820 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:23,820 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 35 < 36. Dropping entry: {'Synthetic_LR': 0.010103723965585232, '_timestamp': 1669856603.8177886}.
+2022-11-30 20:03:23,820 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:23,820 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:24,472 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:24,472 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:24,473 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:24,473 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:24,473 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 36 < 37. Dropping entry: {'Synthetic_LR': 0.010146429762244225, '_timestamp': 1669856604.4710982}.
+2022-11-30 20:03:24,474 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:24,474 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:24,531 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:24,531 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:25,128 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:25,129 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:25,129 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:25,129 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:25,130 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 37 < 38. Dropping entry: {'Synthetic_LR': 0.010179341770708561, '_timestamp': 1669856605.1270618}.
+2022-11-30 20:03:25,130 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:25,130 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:25,545 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:25,795 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:25,796 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:25,796 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:25,796 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:25,796 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 38 < 39. Dropping entry: {'Synthetic_LR': 0.01020289771258831, '_timestamp': 1669856605.7945929}.
+2022-11-30 20:03:25,797 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:25,797 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:26,559 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:26,606 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:26,606 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:26,608 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:26,608 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:26,608 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 39 < 40. Dropping entry: {'Synthetic_LR': 0.01022353395819664, '_timestamp': 1669856606.605938}.
+2022-11-30 20:03:26,608 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:26,608 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:27,261 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:27,261 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:27,263 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:27,263 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:27,263 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 40 < 41. Dropping entry: {'Synthetic_LR': 0.010241901502013206, '_timestamp': 1669856607.2610514}.
+2022-11-30 20:03:27,263 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:27,263 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:27,571 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:27,923 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:27,924 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:27,924 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:27,925 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:27,925 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 41 < 42. Dropping entry: {'Synthetic_LR': 0.010257551446557045, '_timestamp': 1669856607.9222076}.
+2022-11-30 20:03:27,925 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:27,926 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:28,578 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:28,579 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:28,579 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:28,579 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:28,580 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 42 < 43. Dropping entry: {'Synthetic_LR': 0.010279866866767406, '_timestamp': 1669856608.5771236}.
+2022-11-30 20:03:28,580 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:28,580 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:28,585 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:28,585 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:29,004 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:03:29,004 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:03:29,232 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:29,232 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:29,233 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:29,233 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:29,234 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 43 < 44. Dropping entry: {'Synthetic_LR': 0.010337562300264835, '_timestamp': 1669856609.2316165}.
+2022-11-30 20:03:29,234 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:29,234 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:29,586 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:30,045 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:30,046 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:30,046 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:30,047 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:30,047 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 44 < 45. Dropping entry: {'Synthetic_LR': 0.010412266477942467, '_timestamp': 1669856610.0446985}.
+2022-11-30 20:03:30,047 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:30,047 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:30,600 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:30,600 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:30,701 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:30,701 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:30,702 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:30,702 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:30,702 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 45 < 46. Dropping entry: {'Synthetic_LR': 0.01045566238462925, '_timestamp': 1669856610.699122}.
+2022-11-30 20:03:30,703 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:30,703 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:31,356 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:31,357 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:31,358 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:31,358 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:31,358 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 46 < 47. Dropping entry: {'Synthetic_LR': 0.010502569377422333, '_timestamp': 1669856611.355704}.
+2022-11-30 20:03:31,358 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:31,358 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:31,613 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:32,011 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:32,012 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:32,012 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:32,013 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:32,013 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 47 < 48. Dropping entry: {'Synthetic_LR': 0.010546366684138775, '_timestamp': 1669856612.0111866}.
+2022-11-30 20:03:32,013 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:32,014 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:32,626 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:32,673 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:32,674 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:32,674 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:32,675 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:32,675 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 48 < 49. Dropping entry: {'Synthetic_LR': 0.01057480089366436, '_timestamp': 1669856612.6723173}.
+2022-11-30 20:03:32,676 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:32,676 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:33,499 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:33,500 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:33,500 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:33,501 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:33,501 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 49 < 50. Dropping entry: {'Synthetic_LR': 0.01060511264950037, '_timestamp': 1669856613.4985347}.
+2022-11-30 20:03:33,501 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:33,501 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:33,632 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:34,154 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:34,156 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:34,156 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:34,157 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:34,157 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 50 < 51. Dropping entry: {'Synthetic_LR': 0.010659647174179554, '_timestamp': 1669856614.1554153}.
+2022-11-30 20:03:34,157 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:34,158 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:34,648 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:34,648 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:34,813 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:34,814 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:34,814 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:34,814 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:34,815 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 51 < 52. Dropping entry: {'Synthetic_LR': 0.010692877694964409, '_timestamp': 1669856614.8120978}.
+2022-11-30 20:03:34,815 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:34,815 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:35,467 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:35,467 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:35,468 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:35,468 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:35,468 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 52 < 53. Dropping entry: {'Synthetic_LR': 0.010737800970673561, '_timestamp': 1669856615.4667854}.
+2022-11-30 20:03:35,468 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:35,469 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:35,661 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:35,661 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:36,123 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:36,123 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:36,124 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:36,124 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:36,124 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 53 < 54. Dropping entry: {'Synthetic_LR': 0.010783265344798565, '_timestamp': 1669856616.122145}.
+2022-11-30 20:03:36,125 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:36,125 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:36,666 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:36,947 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:36,947 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:36,948 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:36,948 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:36,948 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 54 < 55. Dropping entry: {'Synthetic_LR': 0.01083442848175764, '_timestamp': 1669856616.9462419}.
+2022-11-30 20:03:36,948 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:36,949 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:37,603 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:37,603 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:37,604 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:37,604 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:37,605 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 55 < 56. Dropping entry: {'Synthetic_LR': 0.01086748018860817, '_timestamp': 1669856617.602859}.
+2022-11-30 20:03:37,605 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:37,605 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:37,677 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:37,677 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:38,257 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:38,259 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:38,259 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:38,259 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:38,259 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 56 < 57. Dropping entry: {'Synthetic_LR': 0.010889681987464428, '_timestamp': 1669856618.2568893}.
+2022-11-30 20:03:38,259 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:38,259 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:38,688 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:38,913 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:38,914 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:38,914 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:38,914 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:38,915 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 57 < 58. Dropping entry: {'Synthetic_LR': 0.010928163304924965, '_timestamp': 1669856618.9121726}.
+2022-11-30 20:03:38,915 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:38,915 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:39,573 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:39,573 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:39,574 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:39,574 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:39,574 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 58 < 59. Dropping entry: {'Synthetic_LR': 0.010960346087813377, '_timestamp': 1669856619.572681}.
+2022-11-30 20:03:39,574 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:39,575 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:39,696 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:40,413 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:40,414 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:40,414 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:40,414 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:40,414 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 59 < 60. Dropping entry: {'Synthetic_LR': 0.011007973924279213, '_timestamp': 1669856620.412335}.
+2022-11-30 20:03:40,415 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:40,415 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:40,700 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:41,070 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:41,071 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:41,071 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:41,073 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:41,073 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:41,073 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 60 < 61. Dropping entry: {'Synthetic_LR': 0.011045960709452629, '_timestamp': 1669856621.0704556}.
+2022-11-30 20:03:41,074 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:41,708 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:41,709 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:41,732 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:41,733 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:41,733 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:41,734 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:41,734 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 61 < 62. Dropping entry: {'Synthetic_LR': 0.011112031526863575, '_timestamp': 1669856621.7265122}.
+2022-11-30 20:03:41,734 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:41,735 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:42,386 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:42,387 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:42,387 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:42,388 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:42,388 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 62 < 63. Dropping entry: {'Synthetic_LR': 0.011164634488523006, '_timestamp': 1669856622.3855448}.
+2022-11-30 20:03:42,388 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:42,388 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:42,721 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:42,846 DEBUG   SenderThread:22244 [sender.py:send():303] send: stats
+2022-11-30 20:03:43,042 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:43,043 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:43,044 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:43,044 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:43,044 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 63 < 64. Dropping entry: {'Synthetic_LR': 0.011224605143070221, '_timestamp': 1669856623.0417285}.
+2022-11-30 20:03:43,044 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:43,044 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:43,742 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:43,742 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:43,873 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:43,873 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:43,874 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:43,874 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:43,874 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 64 < 65. Dropping entry: {'Synthetic_LR': 0.011271325871348381, '_timestamp': 1669856623.872322}.
+2022-11-30 20:03:43,874 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:43,874 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:44,159 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:03:44,159 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:03:44,529 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:44,529 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:44,530 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:44,530 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:44,530 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 65 < 66. Dropping entry: {'Synthetic_LR': 0.01133496593683958, '_timestamp': 1669856624.527457}.
+2022-11-30 20:03:44,531 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:44,531 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:44,751 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:45,184 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:45,184 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:45,185 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:45,185 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:45,185 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 66 < 67. Dropping entry: {'Synthetic_LR': 0.011409109458327293, '_timestamp': 1669856625.1824298}.
+2022-11-30 20:03:45,186 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:45,186 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:45,764 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:45,839 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:45,840 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:45,840 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:45,841 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:45,841 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 67 < 68. Dropping entry: {'Synthetic_LR': 0.011469777673482895, '_timestamp': 1669856625.8385756}.
+2022-11-30 20:03:45,841 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:45,842 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:46,503 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:46,505 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:46,505 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:46,505 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:46,505 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 68 < 69. Dropping entry: {'Synthetic_LR': 0.011560890823602676, '_timestamp': 1669856626.5027184}.
+2022-11-30 20:03:46,505 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:46,505 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:46,765 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:47,430 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:47,431 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:47,431 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:47,432 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:47,432 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 69 < 70. Dropping entry: {'Synthetic_LR': 0.011613456532359123, '_timestamp': 1669856627.4294918}.
+2022-11-30 20:03:47,432 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:47,433 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:47,778 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:47,778 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:48,085 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:48,086 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:48,087 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:48,088 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:48,088 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:48,089 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 70 < 71. Dropping entry: {'Synthetic_LR': 0.011646241880953312, '_timestamp': 1669856628.0868711}.
+2022-11-30 20:03:48,089 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:48,747 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:48,747 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:48,747 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:48,748 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:48,748 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 71 < 72. Dropping entry: {'Synthetic_LR': 0.011697598733007908, '_timestamp': 1669856628.7450163}.
+2022-11-30 20:03:48,748 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:48,748 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:48,793 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:49,401 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:49,402 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:49,402 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:49,403 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:49,403 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 72 < 73. Dropping entry: {'Synthetic_LR': 0.011734151281416416, '_timestamp': 1669856629.400269}.
+2022-11-30 20:03:49,403 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:49,403 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:49,802 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:49,802 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:50,058 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:50,058 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:50,058 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:50,059 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:50,059 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 73 < 74. Dropping entry: {'Synthetic_LR': 0.011761066503822803, '_timestamp': 1669856630.0560768}.
+2022-11-30 20:03:50,059 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:50,060 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:50,816 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:50,877 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:50,877 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:50,878 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:50,878 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:50,878 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 74 < 75. Dropping entry: {'Synthetic_LR': 0.01180946547538042, '_timestamp': 1669856630.8758335}.
+2022-11-30 20:03:50,878 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:50,879 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:51,533 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:51,534 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:51,534 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:51,534 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:51,534 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 75 < 76. Dropping entry: {'Synthetic_LR': 0.011840338818728924, '_timestamp': 1669856631.5328898}.
+2022-11-30 20:03:51,535 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:51,535 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:51,829 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:51,829 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:52,190 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:52,190 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:52,191 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:52,191 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:52,191 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 76 < 77. Dropping entry: {'Synthetic_LR': 0.011862777173519135, '_timestamp': 1669856632.1884384}.
+2022-11-30 20:03:52,191 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:52,191 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:52,844 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:52,846 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:52,847 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:52,847 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:52,847 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:52,847 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 77 < 78. Dropping entry: {'Synthetic_LR': 0.01188192144036293, '_timestamp': 1669856632.8455803}.
+2022-11-30 20:03:52,848 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:52,848 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:53,508 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:53,508 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:53,509 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:53,509 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:53,510 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 78 < 79. Dropping entry: {'Synthetic_LR': 0.0118972547352314, '_timestamp': 1669856633.5065367}.
+2022-11-30 20:03:53,510 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:53,510 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:53,845 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:54,349 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:54,350 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:54,351 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:54,351 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:54,351 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 79 < 80. Dropping entry: {'Synthetic_LR': 0.01191999763250351, '_timestamp': 1669856634.348946}.
+2022-11-30 20:03:54,351 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:54,351 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:54,854 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:55,005 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:55,007 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:55,007 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:55,008 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:55,008 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:55,009 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 80 < 81. Dropping entry: {'Synthetic_LR': 0.011938446201384068, '_timestamp': 1669856635.0062177}.
+2022-11-30 20:03:55,009 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:55,661 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:55,661 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:55,662 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:55,662 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:55,662 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 81 < 82. Dropping entry: {'Synthetic_LR': 0.011972283944487572, '_timestamp': 1669856635.6608233}.
+2022-11-30 20:03:55,663 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:55,663 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:55,865 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:55,866 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:56,316 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:56,317 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:56,318 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:56,318 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:56,318 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 82 < 83. Dropping entry: {'Synthetic_LR': 0.01199578121304512, '_timestamp': 1669856636.3159978}.
+2022-11-30 20:03:56,318 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:56,318 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:56,869 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:56,971 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:56,972 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:56,972 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:56,972 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:56,972 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 83 < 84. Dropping entry: {'Synthetic_LR': 0.012048058211803436, '_timestamp': 1669856636.969949}.
+2022-11-30 20:03:56,972 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:56,972 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:57,798 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:57,798 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:57,799 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:57,799 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:57,799 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 84 < 85. Dropping entry: {'Synthetic_LR': 0.012086942791938782, '_timestamp': 1669856637.7961907}.
+2022-11-30 20:03:57,799 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:57,800 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:57,884 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:03:57,884 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:58,453 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:58,453 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:58,454 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:58,454 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:58,454 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 85 < 86. Dropping entry: {'Synthetic_LR': 0.012126671150326729, '_timestamp': 1669856638.4514697}.
+2022-11-30 20:03:58,454 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:58,454 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:58,895 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:03:59,108 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:59,108 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:59,109 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:59,109 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:59,109 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 86 < 87. Dropping entry: {'Synthetic_LR': 0.01216479018330574, '_timestamp': 1669856639.10609}.
+2022-11-30 20:03:59,110 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:59,110 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:59,365 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:03:59,365 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:03:59,769 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:59,770 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:03:59,770 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:03:59,770 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:59,771 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 87 < 88. Dropping entry: {'Synthetic_LR': 0.012189040891826153, '_timestamp': 1669856639.7680604}.
+2022-11-30 20:03:59,771 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:03:59,771 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:03:59,902 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:00,428 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:00,429 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:00,429 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:00,429 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:00,429 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 88 < 89. Dropping entry: {'Synthetic_LR': 0.012209215201437473, '_timestamp': 1669856640.4274082}.
+2022-11-30 20:04:00,430 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:00,430 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:00,912 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:01,265 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:01,266 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:01,266 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:01,267 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:01,267 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 89 < 90. Dropping entry: {'Synthetic_LR': 0.012251843698322773, '_timestamp': 1669856641.2641053}.
+2022-11-30 20:04:01,267 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:01,267 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:01,921 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:01,921 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:01,922 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:01,923 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:01,924 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:01,924 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 90 < 91. Dropping entry: {'Synthetic_LR': 0.012293649837374687, '_timestamp': 1669856641.9215405}.
+2022-11-30 20:04:01,924 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:01,925 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:01,925 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:02,583 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:02,584 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:02,584 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:02,584 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:02,585 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 91 < 92. Dropping entry: {'Synthetic_LR': 0.012366930954158306, '_timestamp': 1669856642.5824509}.
+2022-11-30 20:04:02,585 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:02,585 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:02,937 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:03,239 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:03,240 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:03,240 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:03,241 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:03,241 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 92 < 93. Dropping entry: {'Synthetic_LR': 0.012432655319571495, '_timestamp': 1669856643.2381632}.
+2022-11-30 20:04:03,241 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:03,242 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:03,896 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:03,896 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:03,897 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:03,897 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:03,897 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 93 < 94. Dropping entry: {'Synthetic_LR': 0.01250602025538683, '_timestamp': 1669856643.8931847}.
+2022-11-30 20:04:03,897 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:03,898 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:03,951 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:03,951 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:04,732 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:04,732 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:04,733 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:04,733 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:04,733 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 94 < 95. Dropping entry: {'Synthetic_LR': 0.012559404596686363, '_timestamp': 1669856644.7303002}.
+2022-11-30 20:04:04,733 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:04,734 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:04,966 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:05,389 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:05,390 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:05,390 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:05,391 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:05,391 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 95 < 96. Dropping entry: {'Synthetic_LR': 0.012604515999555588, '_timestamp': 1669856645.3884213}.
+2022-11-30 20:04:05,391 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:05,391 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:05,981 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:05,981 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:06,045 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:06,046 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:06,046 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:06,047 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:06,047 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 96 < 97. Dropping entry: {'Synthetic_LR': 0.012636112049221992, '_timestamp': 1669856646.044079}.
+2022-11-30 20:04:06,047 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:06,047 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:06,700 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:06,701 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:06,701 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:06,701 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:06,701 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 97 < 98. Dropping entry: {'Synthetic_LR': 0.012659130617976189, '_timestamp': 1669856646.6989946}.
+2022-11-30 20:04:06,701 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:06,701 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:06,995 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:07,363 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:07,363 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:07,364 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:07,364 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:07,364 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 98 < 99. Dropping entry: {'Synthetic_LR': 0.012721237726509571, '_timestamp': 1669856647.3622937}.
+2022-11-30 20:04:07,364 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:07,365 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:08,008 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:08,009 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:08,193 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:08,193 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:08,194 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:08,194 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:08,194 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 99 < 100. Dropping entry: {'Synthetic_LR': 0.012783893384039402, '_timestamp': 1669856648.1920452}.
+2022-11-30 20:04:08,194 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:08,194 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:08,849 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:04:08,851 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:04:08,851 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:04:08,853 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:04:09,025 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:04:10,032 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:12,061 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:12,859 DEBUG   SenderThread:22244 [sender.py:send():303] send: stats
+2022-11-30 20:04:14,073 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:14,501 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:04:14,501 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:04:16,090 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:18,104 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:20,109 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:22,123 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:24,148 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:26,169 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:28,183 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:29,646 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:04:29,646 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:04:30,194 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:32,206 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:34,211 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:36,240 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:38,255 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:40,274 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:42,281 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:42,865 DEBUG   SenderThread:22244 [sender.py:send():303] send: stats
+2022-11-30 20:04:44,293 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:44,803 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:04:44,804 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:04:46,305 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:48,323 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:50,333 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:52,354 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:54,372 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:56,398 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:58,414 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:04:59,935 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:04:59,935 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:05:00,433 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:02,450 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:04,471 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:06,489 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:08,497 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:10,500 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:12,513 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:12,878 DEBUG   SenderThread:22244 [sender.py:send():303] send: stats
+2022-11-30 20:05:15,088 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:05:15,089 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:05:16,049 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:16,049 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 100 < 101. Dropping entry: {'Pixels': {'_type': 'histogram', 'values': [6, 24, 93, 262, 569, 1254, 2136, 3055, 3856, 4689, 5440, 6216, 6688, 7259, 7429, 7871, 7900, 8188, 8419, 8560, 8821, 9020, 9038, 9050, 9085, 8954, 8854, 8810, 8491, 8347, 8445, 8664, 8215, 8000, 7452, 7641, 7427, 6813, 6049, 5367, 5100, 5081, 4899, 4708, 4272, 3977, 3196, 3233, 3823, 3288, 3071, 3087, 3041, 1990, 1197, 538, 159, 50, 19, 4, 5, 2, 1, 2], 'bins': [-2.97361159324646, -2.8686320781707764, -2.763652801513672, -2.6586732864379883, -2.553694009780884, -2.4487144947052, -2.3437349796295166, -2.238755702972412, -2.1337761878967285, -2.028796911239624, -1.9238173961639404, -1.8188380002975464, -1.7138586044311523, -1.6088792085647583, -1.5038996934890747, -1.3989202976226807, -1.2939409017562866, -1.1889615058898926, -1.0839821100234985, -0.9790026545524597, -0.8740231990814209, -0.7690438032150269, -0.6640644073486328, -0.559084951877594, -0.45410555601119995, -0.3491261303424835, -0.24414671957492828, -0.13916730880737305, -0.034187883138656616, 0.07079153507947922, 0.17577095329761505, 0.2807503640651703, 0.3857297897338867, 0.49070921540260315, 0.5956886410713196, 0.7006680369377136, 0.8056474924087524, 0.9106268882751465, 1.0156062841415405, 1.1205856800079346, 1.2255651950836182, 1.3305445909500122, 1.4355239868164062, 1.5405033826828003, 1.6454827785491943, 1.7504621744155884, 1.855441689491272, 1.960421085357666, 2.0654006004333496, 2.170379877090454, 2.2753593921661377, 2.380338668823242, 2.485318183898926, 2.5902974605560303, 2.695276975631714, 2.8002564907073975, 2.905235767364502, 3.0102152824401855, 3.11519455909729, 3.2201740741729736, 3.3251535892486572, 3.4301328659057617, 3.5351123809814453, 3.64009165763855, 3.7450711727142334]}, '_timestamp': 1669856716.0468452}.
+2022-11-30 20:05:16,216 DEBUG   SenderThread:22244 [sender.py:send():303] send: files
+2022-11-30 20:05:16,216 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file media\images\Synthetic_Images_101_57976fc7af3303217e9c.png with policy now
+2022-11-30 20:05:16,217 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:16,217 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 100 < 101. Dropping entry: {'Synthetic_Images': {'_type': 'image-file', 'sha256': '57976fc7af3303217e9c2b77294a0311c670351427f52eb2960a308d63b54ff1', 'size': 373414, 'path': 'media/images/Synthetic_Images_101_57976fc7af3303217e9c.png', 'format': 'png', 'width': 1302, 'height': 1302}, '_timestamp': 1669856716.2157092}.
+2022-11-30 20:05:16,221 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:16,221 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 100 < 101. Dropping entry: {'Synthetic_Pixels': {'_type': 'histogram', 'values': [6, 24, 93, 262, 569, 1254, 2136, 3055, 3856, 4689, 5440, 6216, 6688, 7259, 7429, 7871, 7900, 8188, 8419, 8560, 8821, 9020, 9038, 9050, 9085, 8954, 8854, 8810, 8491, 8347, 8445, 8664, 8215, 8000, 7452, 7641, 7427, 6813, 6049, 5367, 5100, 5081, 4899, 4708, 4272, 3977, 3196, 3233, 3823, 3288, 3071, 3087, 3041, 1990, 1197, 538, 159, 50, 19, 4, 5, 2, 1, 2], 'bins': [-2.97361159324646, -2.8686320781707764, -2.763652801513672, -2.6586732864379883, -2.553694009780884, -2.4487144947052, -2.3437349796295166, -2.238755702972412, -2.1337761878967285, -2.028796911239624, -1.9238173961639404, -1.8188380002975464, -1.7138586044311523, -1.6088792085647583, -1.5038996934890747, -1.3989202976226807, -1.2939409017562866, -1.1889615058898926, -1.0839821100234985, -0.9790026545524597, -0.8740231990814209, -0.7690438032150269, -0.6640644073486328, -0.559084951877594, -0.45410555601119995, -0.3491261303424835, -0.24414671957492828, -0.13916730880737305, -0.034187883138656616, 0.07079153507947922, 0.17577095329761505, 0.2807503640651703, 0.3857297897338867, 0.49070921540260315, 0.5956886410713196, 0.7006680369377136, 0.8056474924087524, 0.9106268882751465, 1.0156062841415405, 1.1205856800079346, 1.2255651950836182, 1.3305445909500122, 1.4355239868164062, 1.5405033826828003, 1.6454827785491943, 1.7504621744155884, 1.855441689491272, 1.960421085357666, 2.0654006004333496, 2.170379877090454, 2.2753593921661377, 2.380338668823242, 2.485318183898926, 2.5902974605560303, 2.695276975631714, 2.8002564907073975, 2.905235767364502, 3.0102152824401855, 3.11519455909729, 3.2201740741729736, 3.3251535892486572, 3.4301328659057617, 3.5351123809814453, 3.64009165763855, 3.7450711727142334]}, '_timestamp': 1669856716.2195914}.
+2022-11-30 20:05:16,383 DEBUG   SenderThread:22244 [sender.py:send():303] send: files
+2022-11-30 20:05:16,383 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file media\images\Clipped_Synthetic_Images/std_2.5_101_a00315097b6a8e86aa15.png with policy now
+2022-11-30 20:05:16,384 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:16,384 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 100 < 101. Dropping entry: {'Clipped_Synthetic_Images/std_2.5': {'_type': 'image-file', 'sha256': 'a00315097b6a8e86aa15e947fcd1e6ac48d258287c2bf632312e97e6050c29e4', 'size': 373699, 'path': 'media/images/Clipped_Synthetic_Images/std_2.5_101_a00315097b6a8e86aa15.png', 'format': 'png', 'width': 1302, 'height': 1302}, '_timestamp': 1669856716.381675}.
+2022-11-30 20:05:16,384 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:16,385 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 100 < 101. Dropping entry: {'Synthetic_LR': 0.012822586111724377, '_timestamp': 1669856716.3830912}.
+2022-11-30 20:05:16,385 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:16,549 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:16,549 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images\Synthetic_Images_101_57976fc7af3303217e9c.png
+2022-11-30 20:05:16,549 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images\Clipped_Synthetic_Images\std_2.5_101_a00315097b6a8e86aa15.png
+2022-11-30 20:05:16,549 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images
+2022-11-30 20:05:16,550 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\media\images\Clipped_Synthetic_Images
+2022-11-30 20:05:16,873 INFO    Thread-25 :22244 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmph87t5uh8wandb\23hbe0rb-media/images/Synthetic_Images_101_57976fc7af3303217e9c.png
+2022-11-30 20:05:17,001 INFO    Thread-26 :22244 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmph87t5uh8wandb\3eazmmjf-media/images/Clipped_Synthetic_Images/std_2.5_101_a00315097b6a8e86aa15.png
+2022-11-30 20:05:17,054 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:17,055 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:17,055 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:17,055 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:17,055 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 101 < 102. Dropping entry: {'Synthetic_LR': 0.012854870408773422, '_timestamp': 1669856717.053402}.
+2022-11-30 20:05:17,055 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:17,056 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:17,562 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:17,706 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:17,707 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:17,708 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:17,708 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:17,708 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 102 < 103. Dropping entry: {'Synthetic_LR': 0.012879949063062668, '_timestamp': 1669856717.7053611}.
+2022-11-30 20:05:17,709 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:17,709 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:18,368 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:18,369 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:18,369 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:18,369 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:18,369 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 103 < 104. Dropping entry: {'Synthetic_LR': 0.012910734862089157, '_timestamp': 1669856718.3679082}.
+2022-11-30 20:05:18,369 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:18,370 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:18,579 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:18,580 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:19,283 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:19,284 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:19,284 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:19,284 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:19,284 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 104 < 105. Dropping entry: {'Synthetic_LR': 0.012956857681274414, '_timestamp': 1669856719.2820213}.
+2022-11-30 20:05:19,284 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:19,284 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:19,584 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:19,945 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:19,946 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:19,947 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:19,947 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:19,947 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 105 < 106. Dropping entry: {'Synthetic_LR': 0.012994647026062012, '_timestamp': 1669856719.9448006}.
+2022-11-30 20:05:19,948 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:19,948 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:20,599 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:20,599 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:20,601 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:20,602 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:20,603 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:20,603 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:20,603 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 106 < 107. Dropping entry: {'Synthetic_LR': 0.013048144988715649, '_timestamp': 1669856720.6016395}.
+2022-11-30 20:05:20,603 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:20,604 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:21,257 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:21,258 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:21,258 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:21,258 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:21,258 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 107 < 108. Dropping entry: {'Synthetic_LR': 0.013092956505715847, '_timestamp': 1669856721.256091}.
+2022-11-30 20:05:21,259 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:21,259 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:21,611 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:21,911 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:21,912 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:21,912 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:21,912 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:21,912 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 108 < 109. Dropping entry: {'Synthetic_LR': 0.013125474564731121, '_timestamp': 1669856721.910267}.
+2022-11-30 20:05:21,913 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:21,913 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:22,627 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:22,709 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:22,709 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:22,709 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:22,710 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:22,710 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 109 < 110. Dropping entry: {'Synthetic_LR': 0.013156893663108349, '_timestamp': 1669856722.70741}.
+2022-11-30 20:05:22,710 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:22,710 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:23,373 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:23,374 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:23,375 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:23,376 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:23,377 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:23,377 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 110 < 111. Dropping entry: {'Synthetic_LR': 0.013179950416088104, '_timestamp': 1669856723.3745418}.
+2022-11-30 20:05:23,377 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:23,640 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:24,038 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:24,039 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:24,039 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:24,040 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:24,040 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 111 < 112. Dropping entry: {'Synthetic_LR': 0.013211843557655811, '_timestamp': 1669856724.0377584}.
+2022-11-30 20:05:24,040 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:24,040 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:24,655 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:24,655 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:24,702 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:24,702 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:24,703 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:24,703 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:24,703 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 112 < 113. Dropping entry: {'Synthetic_LR': 0.01323537714779377, '_timestamp': 1669856724.7016623}.
+2022-11-30 20:05:24,703 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:24,704 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:25,361 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:25,362 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:25,363 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:25,363 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:25,363 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 113 < 114. Dropping entry: {'Synthetic_LR': 0.013280252926051617, '_timestamp': 1669856725.3610463}.
+2022-11-30 20:05:25,364 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:25,364 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:25,656 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:26,183 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:26,183 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:26,184 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:26,184 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:26,184 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 114 < 115. Dropping entry: {'Synthetic_LR': 0.013310985639691353, '_timestamp': 1669856726.1818008}.
+2022-11-30 20:05:26,185 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:26,185 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:26,669 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:26,669 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:26,838 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:26,839 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:26,839 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:26,839 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:26,839 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 115 < 116. Dropping entry: {'Synthetic_LR': 0.013332356698811054, '_timestamp': 1669856726.8373733}.
+2022-11-30 20:05:26,840 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:26,840 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:27,492 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:27,492 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:27,493 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:27,493 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:27,493 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 116 < 117. Dropping entry: {'Synthetic_LR': 0.013351833447813988, '_timestamp': 1669856727.4906118}.
+2022-11-30 20:05:27,494 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:27,494 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:27,677 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:28,146 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:28,147 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:28,147 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:28,147 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:28,148 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 117 < 118. Dropping entry: {'Synthetic_LR': 0.013373511843383312, '_timestamp': 1669856728.1458473}.
+2022-11-30 20:05:28,148 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:28,148 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:28,688 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:28,801 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:28,801 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:28,802 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:28,803 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:28,803 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 118 < 119. Dropping entry: {'Synthetic_LR': 0.013408222235739231, '_timestamp': 1669856728.8006873}.
+2022-11-30 20:05:28,803 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:28,803 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:29,598 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:29,598 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:29,599 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:29,599 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:29,599 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 119 < 120. Dropping entry: {'Synthetic_LR': 0.013453766703605652, '_timestamp': 1669856729.5972316}.
+2022-11-30 20:05:29,599 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:29,600 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:29,693 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:30,219 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 20:05:30,219 DEBUG   SenderThread:22244 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 20:05:30,252 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:30,255 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:30,255 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 120 < 121. Dropping entry: {'Synthetic_LR': 0.013493644073605537, '_timestamp': 1669856730.2528737}.
+2022-11-30 20:05:30,255 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:30,331 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:30,332 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:30,333 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:30,703 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:30,703 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:30,913 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:30,914 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:30,914 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:30,914 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:30,914 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 121 < 122. Dropping entry: {'Synthetic_LR': 0.013542509637773037, '_timestamp': 1669856730.9126647}.
+2022-11-30 20:05:30,915 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:30,915 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:31,571 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:31,572 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:31,572 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:31,573 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:31,573 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 122 < 123. Dropping entry: {'Synthetic_LR': 0.013587972149252892, '_timestamp': 1669856731.5699093}.
+2022-11-30 20:05:31,573 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:31,574 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:31,716 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:32,232 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:32,233 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:32,233 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:32,233 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:32,234 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 123 < 124. Dropping entry: {'Synthetic_LR': 0.013622349128127098, '_timestamp': 1669856732.231594}.
+2022-11-30 20:05:32,234 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:32,234 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:32,731 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:32,731 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:33,037 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:33,037 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:33,038 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:33,038 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:33,038 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 124 < 125. Dropping entry: {'Synthetic_LR': 0.01366097666323185, '_timestamp': 1669856733.0359867}.
+2022-11-30 20:05:33,038 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:33,038 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:33,700 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:33,701 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:33,701 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:33,701 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:33,702 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 125 < 126. Dropping entry: {'Synthetic_LR': 0.013703105971217155, '_timestamp': 1669856733.6991858}.
+2022-11-30 20:05:33,702 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:33,702 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:33,746 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:34,359 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:34,360 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:34,360 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:34,360 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:34,360 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 126 < 127. Dropping entry: {'Synthetic_LR': 0.013741458766162395, '_timestamp': 1669856734.3585}.
+2022-11-30 20:05:34,361 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:34,361 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 20:05:34,748 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\output.log
+2022-11-30 20:05:34,748 INFO    Thread-17 :22244 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_200142-gref717c\files\wandb-summary.json
+2022-11-30 20:05:35,039 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:35,039 DEBUG   SenderThread:22244 [sender.py:send():303] send: history
+2022-11-30 20:05:35,041 DEBUG   SenderThread:22244 [sender.py:send():303] send: summary
+2022-11-30 20:05:35,041 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:35,041 WARNING HandlerThread:22244 [handler.py:handle_request_partial_history():528] Step 127 < 128. Dropping entry: {'Synthetic_LR': 0.01378817018121481, '_timestamp': 1669856735.0380204}.
+2022-11-30 20:05:35,041 DEBUG   HandlerThread:22244 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 20:05:35,042 INFO    SenderThread:22244 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end

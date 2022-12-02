@@ -1,0 +1,222 @@
+2022-11-30 19:44:25,771 INFO    StreamThr :19492 [internal.py:wandb_internal():88] W&B internal server running at pid: 19492, started at: 2022-11-30 19:44:25.770164
+2022-11-30 19:44:25,773 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: status
+2022-11-30 19:44:25,775 DEBUG   SenderThread:19492 [sender.py:send_request():317] send_request: status
+2022-11-30 19:44:25,782 DEBUG   SenderThread:19492 [sender.py:send():303] send: header
+2022-11-30 19:44:25,782 INFO    WriterThread:19492 [datastore.py:open_for_write():75] open: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\run-oqpmuro4.wandb
+2022-11-30 19:44:25,820 DEBUG   SenderThread:19492 [sender.py:send():303] send: run
+2022-11-30 19:44:26,088 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: check_version
+2022-11-30 19:44:26,089 INFO    SenderThread:19492 [dir_watcher.py:__init__():216] watching files in: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files
+2022-11-30 19:44:26,089 INFO    SenderThread:19492 [sender.py:_start_run_threads():928] run started: oqpmuro4 with start time 1669855465.767162
+2022-11-30 19:44:26,089 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:26,090 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:26,090 DEBUG   SenderThread:19492 [sender.py:send_request():317] send_request: check_version
+2022-11-30 19:44:26,210 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: run_start
+2022-11-30 19:44:26,231 DEBUG   HandlerThread:19492 [system_info.py:__init__():31] System info init
+2022-11-30 19:44:26,231 DEBUG   HandlerThread:19492 [system_info.py:__init__():46] System info init done
+2022-11-30 19:44:26,231 INFO    HandlerThread:19492 [system_monitor.py:start():150] Starting system monitor
+2022-11-30 19:44:26,232 INFO    SystemMonitor:19492 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-30 19:44:26,232 INFO    HandlerThread:19492 [system_monitor.py:probe():168] Collecting system info
+2022-11-30 19:44:26,237 INFO    SystemMonitor:19492 [interfaces.py:start():168] Started cpu
+2022-11-30 19:44:26,237 INFO    SystemMonitor:19492 [interfaces.py:start():168] Started disk
+2022-11-30 19:44:26,238 INFO    SystemMonitor:19492 [interfaces.py:start():168] Started gpu
+2022-11-30 19:44:26,239 INFO    SystemMonitor:19492 [interfaces.py:start():168] Started memory
+2022-11-30 19:44:26,248 INFO    SystemMonitor:19492 [interfaces.py:start():168] Started network
+2022-11-30 19:44:26,259 DEBUG   HandlerThread:19492 [system_info.py:probe():195] Probing system
+2022-11-30 19:44:26,260 DEBUG   HandlerThread:19492 [system_info.py:_probe_git():180] Probing git
+2022-11-30 19:44:26,363 DEBUG   HandlerThread:19492 [system_info.py:_probe_git():188] Probing git done
+2022-11-30 19:44:26,363 DEBUG   HandlerThread:19492 [system_info.py:probe():241] Probing system done
+2022-11-30 19:44:26,364 DEBUG   HandlerThread:19492 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.10.8', 'heartbeatAt': '2022-12-01T00:44:26.259972', 'startedAt': '2022-12-01T00:44:25.749429', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Documents/M1/ECE1512/PB/DC_TM/distill_CIFAR10.ipynb', 'root': 'C:/Users/zixua/Documents/M1/ECE1512/PB/DC_TM', 'git': {'remote': 'https://github.com/GeorgeCazenavette/mtt-distillation.git', 'commit': 'c365f4257117ccc0abf163e09f692be94634ed18'}, 'email': 'zixuanuw@gmail.com', 'host': 'Simon', 'username': 'zixua', 'executable': 'C:\\Users\\zixua\\anaconda3\\envs\\test1\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3201.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 3201.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'total': 457.44433212280273, 'used': 316.2010269165039}, 'gpu': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.351802825927734}}
+2022-11-30 19:44:26,364 INFO    HandlerThread:19492 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-30 19:44:26,364 INFO    HandlerThread:19492 [system_monitor.py:probe():181] Publishing system info
+2022-11-30 19:44:26,364 DEBUG   HandlerThread:19492 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-30 19:44:26,365 DEBUG   HandlerThread:19492 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-30 19:44:26,365 DEBUG   HandlerThread:19492 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-30 19:44:26,367 ERROR   HandlerThread:19492 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\zixua\anaconda3\envs\test1\lib\subprocess.py", line 1440, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-11-30 19:44:26,368 DEBUG   HandlerThread:19492 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-30 19:44:26,369 INFO    HandlerThread:19492 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-30 19:44:26,447 DEBUG   SenderThread:19492 [sender.py:send():303] send: files
+2022-11-30 19:44:26,448 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-30 19:44:26,462 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 19:44:26,462 DEBUG   SenderThread:19492 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 19:44:26,592 DEBUG   SenderThread:19492 [sender.py:send():303] send: telemetry
+2022-11-30 19:44:26,979 INFO    Thread-22 :19492 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmpvvgjv8rfwandb\2mgyt2as-wandb-metadata.json
+2022-11-30 19:44:27,095 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-metadata.json
+2022-11-30 19:44:27,095 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\conda-environment.yaml
+2022-11-30 19:44:27,095 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:27,095 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\requirements.txt
+2022-11-30 19:44:27,095 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:29,111 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:31,129 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:33,146 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:35,173 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:36,773 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:37,196 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:39,214 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:40,319 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:40,321 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:40,321 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:40,322 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:41,220 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:41,220 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:41,610 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 19:44:41,610 DEBUG   SenderThread:19492 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 19:44:43,248 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:45,270 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:47,281 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:49,295 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:51,320 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:53,769 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:53,770 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Pixels': {'_type': 'histogram', 'values': [2302, 2147, 2075, 3169, 3865, 3706, 3802, 4066, 4350, 5121, 5513, 5406, 5789, 6410, 6615, 6688, 6649, 6872, 6972, 7650, 7742, 7401, 6925, 6988, 6757, 6737, 6513, 6652, 6670, 6721, 6872, 6699, 6376, 6598, 6495, 5889, 6071, 5474, 5492, 4749, 4698, 4647, 4855, 4820, 4266, 4996, 4702, 4212, 4415, 3500, 3255, 3337, 3302, 2600, 2341, 1933, 2169, 2683, 2423, 2125, 2815, 2230, 817, 1071], 'bins': [-2.4514522552490234, -2.3697850704193115, -2.2881176471710205, -2.2064504623413086, -2.1247830390930176, -2.0431158542633057, -1.9614485502243042, -1.8797812461853027, -1.7981140613555908, -1.7164467573165894, -1.634779453277588, -1.5531121492385864, -1.471444845199585, -1.3897775411605835, -1.3081103563308716, -1.2264430522918701, -1.1447757482528687, -1.0631084442138672, -0.9814411997795105, -0.899773895740509, -0.8181066513061523, -0.7364393472671509, -0.6547720432281494, -0.5731047987937927, -0.49143749475479126, -0.4097702205181122, -0.3281029462814331, -0.24643564224243164, -0.16476836800575256, -0.08310108631849289, -0.0014338046312332153, 0.08023347705602646, 0.16190075874328613, 0.2435680329799652, 0.3252353072166443, 0.40690261125564575, 0.48856988549232483, 0.5702371597290039, 0.6519044637680054, 0.7335717082023621, 0.8152390122413635, 0.896906316280365, 0.9785735607147217, 1.0602408647537231, 1.1419081687927246, 1.223575472831726, 1.305242657661438, 1.3869099617004395, 1.468577265739441, 1.5502445697784424, 1.6319118738174438, 1.7135790586471558, 1.7952463626861572, 1.8769136667251587, 1.9585809707641602, 2.040248155593872, 2.121915578842163, 2.203582763671875, 2.285250186920166, 2.366917371749878, 2.44858455657959, 2.530251979827881, 2.6119191646575928, 2.693586587905884, 2.7752537727355957]}, '_timestamp': 1669855493.767072}.
+2022-11-30 19:44:54,187 DEBUG   SenderThread:19492 [sender.py:send():303] send: files
+2022-11-30 19:44:54,189 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file media\images\Synthetic_Images_1_2cdd3e7fb3cc4fab933b.png with policy now
+2022-11-30 19:44:54,189 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:54,189 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Synthetic_Images': {'_type': 'image-file', 'sha256': '2cdd3e7fb3cc4fab933b291760c76830533aab35f4f98cc98df10133c1e888a2', 'size': 346436, 'path': 'media/images/Synthetic_Images_1_2cdd3e7fb3cc4fab933b.png', 'format': 'png', 'width': 1302, 'height': 1302}, '_timestamp': 1669855494.1878638}.
+2022-11-30 19:44:54,195 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:54,196 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Synthetic_Pixels': {'_type': 'histogram', 'values': [2302, 2147, 2075, 3169, 3865, 3706, 3802, 4066, 4350, 5121, 5513, 5406, 5789, 6410, 6615, 6688, 6649, 6872, 6972, 7650, 7742, 7401, 6925, 6988, 6757, 6737, 6513, 6652, 6670, 6721, 6872, 6699, 6376, 6598, 6495, 5889, 6071, 5474, 5492, 4749, 4698, 4647, 4855, 4820, 4266, 4996, 4702, 4212, 4415, 3500, 3255, 3337, 3302, 2600, 2341, 1933, 2169, 2683, 2423, 2125, 2815, 2230, 817, 1071], 'bins': [-2.4514522552490234, -2.3697850704193115, -2.2881176471710205, -2.2064504623413086, -2.1247830390930176, -2.0431158542633057, -1.9614485502243042, -1.8797812461853027, -1.7981140613555908, -1.7164467573165894, -1.634779453277588, -1.5531121492385864, -1.471444845199585, -1.3897775411605835, -1.3081103563308716, -1.2264430522918701, -1.1447757482528687, -1.0631084442138672, -0.9814411997795105, -0.899773895740509, -0.8181066513061523, -0.7364393472671509, -0.6547720432281494, -0.5731047987937927, -0.49143749475479126, -0.4097702205181122, -0.3281029462814331, -0.24643564224243164, -0.16476836800575256, -0.08310108631849289, -0.0014338046312332153, 0.08023347705602646, 0.16190075874328613, 0.2435680329799652, 0.3252353072166443, 0.40690261125564575, 0.48856988549232483, 0.5702371597290039, 0.6519044637680054, 0.7335717082023621, 0.8152390122413635, 0.896906316280365, 0.9785735607147217, 1.0602408647537231, 1.1419081687927246, 1.223575472831726, 1.305242657661438, 1.3869099617004395, 1.468577265739441, 1.5502445697784424, 1.6319118738174438, 1.7135790586471558, 1.7952463626861572, 1.8769136667251587, 1.9585809707641602, 2.040248155593872, 2.121915578842163, 2.203582763671875, 2.285250186920166, 2.366917371749878, 2.44858455657959, 2.530251979827881, 2.6119191646575928, 2.693586587905884, 2.7752537727355957]}, '_timestamp': 1669855494.1926448}.
+2022-11-30 19:44:54,353 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\media\images\Synthetic_Images_1_2cdd3e7fb3cc4fab933b.png
+2022-11-30 19:44:54,354 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\media
+2022-11-30 19:44:54,354 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\media\images
+2022-11-30 19:44:54,371 DEBUG   SenderThread:19492 [sender.py:send():303] send: files
+2022-11-30 19:44:54,371 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file media\images\Clipped_Synthetic_Images/std_2.5_1_2cdd3e7fb3cc4fab933b.png with policy now
+2022-11-30 19:44:54,373 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:54,373 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Clipped_Synthetic_Images/std_2.5': {'_type': 'image-file', 'sha256': '2cdd3e7fb3cc4fab933b291760c76830533aab35f4f98cc98df10133c1e888a2', 'size': 346436, 'path': 'media/images/Clipped_Synthetic_Images/std_2.5_1_2cdd3e7fb3cc4fab933b.png', 'format': 'png', 'width': 1302, 'height': 1302}, '_timestamp': 1669855494.3705142}.
+2022-11-30 19:44:54,373 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:54,373 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 0 < 1. Dropping entry: {'Synthetic_LR': 0.009983990341424942, '_timestamp': 1669855494.3718762}.
+2022-11-30 19:44:54,374 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:54,806 INFO    Thread-23 :19492 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmpvvgjv8rfwandb\3w461iq6-media/images/Synthetic_Images_1_2cdd3e7fb3cc4fab933b.png
+2022-11-30 19:44:54,972 INFO    Thread-24 :19492 [upload_job.py:push():143] Uploaded file C:\Users\zixua\AppData\Local\Temp\tmpvvgjv8rfwandb\38ovtwcj-media/images/Clipped_Synthetic_Images/std_2.5_1_2cdd3e7fb3cc4fab933b.png
+2022-11-30 19:44:55,047 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:55,047 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:55,048 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:55,048 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:55,048 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 1 < 2. Dropping entry: {'Synthetic_LR': 0.009972567670047283, '_timestamp': 1669855495.0456457}.
+2022-11-30 19:44:55,048 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:55,049 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:55,366 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:55,366 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:55,366 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\media\images\Clipped_Synthetic_Images\std_2.5_1_2cdd3e7fb3cc4fab933b.png
+2022-11-30 19:44:55,366 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\media\images
+2022-11-30 19:44:55,367 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\media\images\Clipped_Synthetic_Images
+2022-11-30 19:44:55,707 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:55,708 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:55,708 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:55,708 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:55,709 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 2 < 3. Dropping entry: {'Synthetic_LR': 0.009973421692848206, '_timestamp': 1669855495.7067258}.
+2022-11-30 19:44:55,709 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:55,709 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:56,366 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:56,366 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:56,370 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:56,370 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 3 < 4. Dropping entry: {'Synthetic_LR': 0.009966702200472355, '_timestamp': 1669855496.3645682}.
+2022-11-30 19:44:56,372 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:56,373 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:56,543 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:56,551 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:56,755 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 19:44:56,755 DEBUG   SenderThread:19492 [sender.py:send_request():317] send_request: stop_status
+2022-11-30 19:44:57,189 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:57,189 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:57,190 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:57,190 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:57,190 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 4 < 5. Dropping entry: {'Synthetic_LR': 0.00995695497840643, '_timestamp': 1669855497.1878548}.
+2022-11-30 19:44:57,190 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:57,191 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:57,377 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\config.yaml
+2022-11-30 19:44:57,377 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:44:57,377 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:57,848 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:57,849 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:57,849 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:57,849 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:57,849 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 5 < 6. Dropping entry: {'Synthetic_LR': 0.009961305186152458, '_timestamp': 1669855497.8475773}.
+2022-11-30 19:44:57,850 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:57,850 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:58,391 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:58,507 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:58,508 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:58,508 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:58,508 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:58,509 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 6 < 7. Dropping entry: {'Synthetic_LR': 0.009960835799574852, '_timestamp': 1669855498.5059724}.
+2022-11-30 19:44:58,509 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:58,509 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:59,164 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:59,165 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:59,165 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:59,166 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:59,167 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 7 < 8. Dropping entry: {'Synthetic_LR': 0.009963260032236576, '_timestamp': 1669855499.1638343}.
+2022-11-30 19:44:59,167 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:59,167 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:44:59,404 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:44:59,823 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:59,823 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:44:59,824 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:44:59,824 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:59,824 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 8 < 9. Dropping entry: {'Synthetic_LR': 0.009962707757949829, '_timestamp': 1669855499.8219674}.
+2022-11-30 19:44:59,824 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:44:59,825 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:45:00,406 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:45:00,644 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:00,645 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:45:00,645 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:45:00,645 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:00,646 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 9 < 10. Dropping entry: {'Synthetic_LR': 0.009968310594558716, '_timestamp': 1669855500.6436744}.
+2022-11-30 19:45:00,646 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:00,646 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:45:01,302 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:01,303 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:45:01,304 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:45:01,305 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:01,305 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 10 < 11. Dropping entry: {'Synthetic_LR': 0.009990934282541275, '_timestamp': 1669855501.3028212}.
+2022-11-30 19:45:01,305 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:45:01,307 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:01,420 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:45:01,420 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:45:01,965 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:01,966 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:45:01,967 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:45:01,967 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:01,967 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 11 < 12. Dropping entry: {'Synthetic_LR': 0.010004851967096329, '_timestamp': 1669855501.9645936}.
+2022-11-30 19:45:01,968 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:01,968 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:45:02,423 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:45:02,629 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:02,630 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:45:02,630 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:45:02,630 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:02,631 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 12 < 13. Dropping entry: {'Synthetic_LR': 0.010012174025177956, '_timestamp': 1669855502.628469}.
+2022-11-30 19:45:02,631 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:02,631 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:45:03,288 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:03,288 DEBUG   SenderThread:19492 [sender.py:send():303] send: history
+2022-11-30 19:45:03,289 DEBUG   SenderThread:19492 [sender.py:send():303] send: summary
+2022-11-30 19:45:03,289 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:03,289 WARNING HandlerThread:19492 [handler.py:handle_request_partial_history():528] Step 13 < 14. Dropping entry: {'Synthetic_LR': 0.010016768239438534, '_timestamp': 1669855503.28774}.
+2022-11-30 19:45:03,290 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: partial_history
+2022-11-30 19:45:03,290 INFO    SenderThread:19492 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-30 19:45:03,436 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:45:03,437 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\wandb-summary.json
+2022-11-30 19:45:04,201 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: pause
+2022-11-30 19:45:04,201 INFO    HandlerThread:19492 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-11-30 19:45:04,201 INFO    HandlerThread:19492 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-30 19:45:04,201 DEBUG   SystemMonitor:19492 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-30 19:45:04,202 DEBUG   SystemMonitor:19492 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-30 19:45:04,209 DEBUG   SystemMonitor:19492 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-30 19:45:04,210 INFO    HandlerThread:19492 [interfaces.py:finish():173] Joined cpu
+2022-11-30 19:45:04,225 INFO    HandlerThread:19492 [interfaces.py:finish():173] Joined disk
+2022-11-30 19:45:04,237 INFO    HandlerThread:19492 [interfaces.py:finish():173] Joined gpu
+2022-11-30 19:45:04,237 INFO    HandlerThread:19492 [interfaces.py:finish():173] Joined memory
+2022-11-30 19:45:04,237 INFO    HandlerThread:19492 [interfaces.py:finish():173] Joined network
+2022-11-30 19:45:04,238 DEBUG   SenderThread:19492 [sender.py:send():303] send: stats
+2022-11-30 19:45:05,457 INFO    Thread-17 :19492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_194425-oqpmuro4\files\output.log
+2022-11-30 19:45:11,875 DEBUG   HandlerThread:19492 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-30 19:45:11,875 DEBUG   SenderThread:19492 [sender.py:send_request():317] send_request: stop_status

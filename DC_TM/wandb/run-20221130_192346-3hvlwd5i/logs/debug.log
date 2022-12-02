@@ -1,0 +1,39 @@
+2022-11-30 19:23:46,507 INFO    MainThread:9320 [wandb_setup.py:_flush():68] Configure stats pid to 9320
+2022-11-30 19:23:46,507 INFO    MainThread:9320 [wandb_setup.py:_flush():68] Loading settings from C:\Users\zixua\.config\wandb\settings
+2022-11-30 19:23:46,508 INFO    MainThread:9320 [wandb_setup.py:_flush():68] Loading settings from C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\settings
+2022-11-30 19:23:46,508 INFO    MainThread:9320 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-30 19:23:46,508 INFO    MainThread:9320 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-30 19:23:46,508 INFO    MainThread:9320 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2022-11-30 19:23:46,509 INFO    MainThread:9320 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_192346-3hvlwd5i\logs\debug.log
+2022-11-30 19:23:46,509 INFO    MainThread:9320 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\zixua\Documents\M1\ECE1512\PB\DC_TM\wandb\run-20221130_192346-3hvlwd5i\logs\debug-internal.log
+2022-11-30 19:23:46,509 INFO    MainThread:9320 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000016BE2730FD0>
+2022-11-30 19:23:46,509 INFO    MainThread:9320 [wandb_init.py:init():516] calling init triggers
+2022-11-30 19:23:46,509 INFO    MainThread:9320 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'dataset': 'CIFAR10', 'subset': 'imagenette', 'model': 'ConvNet', 'lr_img': 1000, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_train': 256, 'batch_syn': None, 'pix_init': 'real', 'dsa': False, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': 'CIFAR10data', 'buffer_path': './CIFAR10buffers', 'expert_epochs': 10, 'syn_steps': 20, 'max_start_epoch': 15, 'load_all': False, 'no_aug': False, 'zca': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'ipc': 10, 'eval_mode': 'S', 'num_eval': 5, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 1000, 'device': 'cuda', 'im_size': (32, 32), 'dsa_param': <utils.ParamDiffAug object at 0x0000016BE2730F70>}
+2022-11-30 19:23:46,509 INFO    MainThread:9320 [wandb_init.py:init():535] re-initializing run, found existing run on stack: wiaul1th
+2022-11-30 19:23:46,511 INFO    MainThread:9320 [wandb_run.py:_finish():1746] finishing run ece1512/DatasetDistillation/wiaul1th
+2022-11-30 19:23:46,512 INFO    MainThread:9320 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-30 19:23:46,512 INFO    MainThread:9320 [wandb_run.py:_restore():1932] restore
+2022-11-30 19:23:46,512 INFO    MainThread:9320 [wandb_run.py:_restore():1938] restore done
+2022-11-30 19:23:50,284 INFO    MainThread:9320 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-30 19:23:50,285 INFO    MainThread:9320 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-30 19:23:50,290 INFO    MainThread:9320 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-30 19:23:50,294 INFO    MainThread:9320 [wandb_init.py:init():569] starting backend
+2022-11-30 19:23:50,294 INFO    MainThread:9320 [wandb_init.py:init():573] setting up manager
+2022-11-30 19:23:50,303 INFO    MainThread:9320 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-11-30 19:23:50,306 INFO    MainThread:9320 [wandb_init.py:init():580] backend started and connected
+2022-11-30 19:23:50,321 INFO    MainThread:9320 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-11-30 19:23:50,321 INFO    MainThread:9320 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-11-30 19:23:50,321 INFO    MainThread:9320 [wandb_init.py:init():658] updated telemetry
+2022-11-30 19:23:50,368 INFO    MainThread:9320 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-30 19:23:51,619 INFO    MainThread:9320 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-30 19:23:51,722 INFO    MainThread:9320 [wandb_run.py:_on_init():2004] got version response 
+2022-11-30 19:23:51,722 INFO    MainThread:9320 [wandb_init.py:init():728] starting run threads in backend
+2022-11-30 19:23:51,828 INFO    MainThread:9320 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-30 19:23:51,829 INFO    MainThread:9320 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-30 19:23:51,829 INFO    MainThread:9320 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-30 19:23:51,829 INFO    MainThread:9320 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-30 19:23:51,829 INFO    MainThread:9320 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-30 19:24:02,914 INFO    MainThread:9320 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-30 19:24:02,915 INFO    MainThread:9320 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-30 19:24:13,871 WARNING MsgRouterThr:9320 [router.py:message_loop():77] message_loop has been closed

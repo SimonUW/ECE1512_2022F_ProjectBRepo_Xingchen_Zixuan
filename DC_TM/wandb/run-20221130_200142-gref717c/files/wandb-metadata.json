@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2022-12-01T01:01:42.834367",
+    "startedAt": "2022-12-01T01:01:42.316589",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/M1/ECE1512/PB/DC_TM/distill_CIFAR10.ipynb",
+    "root": "C:/Users/zixua/Documents/M1/ECE1512/PB/DC_TM",
+    "git": {
+        "remote": "https://github.com/GeorgeCazenavette/mtt-distillation.git",
+        "commit": "c365f4257117ccc0abf163e09f692be94634ed18"
+    },
+    "email": "zixuanuw@gmail.com",
+    "host": "Simon",
+    "username": "zixua",
+    "executable": "C:\\Users\\zixua\\anaconda3\\envs\\test1\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "total": 457.44433212280273,
+        "used": 316.21168518066406
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.351802825927734
+    }
+}

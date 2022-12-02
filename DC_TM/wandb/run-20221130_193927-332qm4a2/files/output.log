@@ -1,0 +1,169 @@
+
+ 16%|███████████▉                                                               | 7922/50000 [00:01<00:08, 5169.84it/s]
+Hyper-parameters:
+ {'dataset': 'CIFAR10', 'subset': 'imagenette', 'model': 'ConvNet', 'lr_img': 1000, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_train': 256, 'batch_syn': 100, 'pix_init': 'real', 'dsa': False, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': 'CIFAR10data', 'buffer_path': './CIFAR10buffers', 'expert_epochs': 10, 'syn_steps': 20, 'max_start_epoch': 15, 'load_all': False, 'no_aug': False, 'zca': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'ipc': 10, 'eval_mode': 'S', 'num_eval': 5, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 1000, 'device': 'cuda', 'im_size': [32, 32], 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x000002414B0B1690>, '_wandb': {}, 'zca_trans': None, 'distributed': False}
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████| 50000/50000 [00:09<00:00, 5276.36it/s]
+50000it [00:00, 2969124.48it/s]
+class c = 0: 5000 real images
+class c = 1: 5000 real images
+class c = 2: 5000 real images
+class c = 3: 5000 real images
+class c = 4: 5000 real images
+class c = 5: 5000 real images
+class c = 6: 5000 real images
+class c = 7: 5000 real images
+class c = 8: 5000 real images
+class c = 9: 5000 real images
+real images channel 0, mean = -0.0000, std = 1.2211
+real images channel 1, mean = -0.0002, std = 1.2211
+real images channel 2, mean = 0.0002, std = 1.3014
+initialize synthetic data from random real images
+[2022-11-30 19:39:37] training begins
+Expert Dir: ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+C:\Users\zixua\AppData\Local\Temp\ipykernel_20788\3505753159.py:107: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\cb\pytorch_1000000000000\work\torch\csrc\utils\tensor_new.cpp:233.)
+  label_syn = torch.tensor([np.ones(args.ipc,dtype=np.int_)*i for i in range(num_classes)], dtype=torch.long, requires_grad=False, device=args.device).view(-1) # [0,0,0, 1,1,1, ..., 9,9,9]
+[2022-11-30 19:39:41] iter = 0000, loss = 1.0076
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 0
+==================== Final Results ====================
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████▌| 996/1001 [00:08<00:00, 114.82it/s]
+[2022-11-30 19:39:55] Evaluate: epoch = 1000 train time = 13 s train loss = 0.001600 train acc = 1.0000, test acc = 0.2813
+
+100%|██████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:13<00:00, 75.92it/s]
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:40:02] iter = 0010, loss = 0.9683
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:40:09] iter = 0020, loss = 0.9880
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:40:16] iter = 0030, loss = 0.9820
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:40:23] iter = 0040, loss = 0.9645
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:40:30] iter = 0050, loss = 0.9605
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:40:37] iter = 0060, loss = 0.9691
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:40:44] iter = 0070, loss = 0.9588
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:40:51] iter = 0080, loss = 0.9571
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:40:58] iter = 0090, loss = 0.9563
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+ 10%|███████▌                                                                       | 96/1001 [00:00<00:07, 114.75it/s]
+[2022-11-30 19:41:05] iter = 0100, loss = 0.9445
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 100
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████▌| 995/1001 [00:08<00:00, 113.46it/s]
+[2022-11-30 19:41:18] Evaluate: epoch = 1000 train time = 13 s train loss = 0.001287 train acc = 1.0000, test acc = 0.2694
+
+100%|██████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:13<00:00, 75.26it/s]
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:41:26] iter = 0110, loss = 0.9648
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:41:33] iter = 0120, loss = 0.9314
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:41:39] iter = 0130, loss = 0.9657
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:41:46] iter = 0140, loss = 0.9418
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:41:54] iter = 0150, loss = 0.9582
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:42:01] iter = 0160, loss = 0.9481
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:42:08] iter = 0170, loss = 0.9343
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:42:15] iter = 0180, loss = 0.9371
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:42:22] iter = 0190, loss = 0.9246
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+ 18%|█████████████▊                                                                | 178/1001 [00:01<00:07, 111.04it/s]
+[2022-11-30 19:42:29] iter = 0200, loss = 0.9577
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 200
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████▍| 993/1001 [00:08<00:00, 113.56it/s]
+[2022-11-30 19:42:42] Evaluate: epoch = 1000 train time = 13 s train loss = 0.000986 train acc = 1.0000, test acc = 0.2781
+
+100%|██████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:13<00:00, 73.94it/s]
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:42:50] iter = 0210, loss = 0.9705
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:42:57] iter = 0220, loss = 0.9147
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:43:04] iter = 0230, loss = 0.9283
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:43:10] iter = 0240, loss = 0.9558
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:43:17] iter = 0250, loss = 0.9185
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:43:24] iter = 0260, loss = 0.9237
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:43:31] iter = 0270, loss = 0.9528
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:43:38] iter = 0280, loss = 0.9517
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:43:45] iter = 0290, loss = 0.9419
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+  1%|▉                                                                              | 12/1001 [00:00<00:08, 114.63it/s]
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:43:52] iter = 0300, loss = 0.8916
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 300
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:13<00:00, 73.21it/s]
+[2022-11-30 19:44:06] Evaluate: epoch = 1000 train time = 13 s train loss = 0.000852 train acc = 1.0000, test acc = 0.2849
+After 300 iterations, the model test accuracy on synthetic data is 28.49%

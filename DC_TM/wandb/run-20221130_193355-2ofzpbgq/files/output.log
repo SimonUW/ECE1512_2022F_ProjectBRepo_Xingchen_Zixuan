@@ -1,0 +1,89 @@
+Hyper-parameters:
+ {'dataset': 'CIFAR10', 'subset': 'imagenette', 'model': 'ConvNet', 'lr_img': 1000, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_train': 256, 'batch_syn': 100, 'pix_init': 'real', 'dsa': False, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': 'CIFAR10data', 'buffer_path': './CIFAR10buffers', 'expert_epochs': 10, 'syn_steps': 20, 'max_start_epoch': 15, 'load_all': False, 'no_aug': False, 'zca': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'ipc': 10, 'eval_mode': 'S', 'num_eval': 5, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 1000, 'device': 'cuda', 'im_size': [32, 32], 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x00000191FFAADD50>, '_wandb': {}, 'zca_trans': None, 'distributed': False}
+BUILDING DATASET
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████| 50000/50000 [00:10<00:00, 4988.39it/s]
+50000it [00:00, 2854743.95it/s]
+  2%|█▉                                                                             | 24/1001 [00:00<00:08, 113.80it/s]
+class c = 0: 5000 real images
+class c = 1: 5000 real images
+class c = 2: 5000 real images
+class c = 3: 5000 real images
+class c = 4: 5000 real images
+class c = 5: 5000 real images
+class c = 6: 5000 real images
+class c = 7: 5000 real images
+class c = 8: 5000 real images
+class c = 9: 5000 real images
+real images channel 0, mean = -0.0000, std = 1.2211
+real images channel 1, mean = -0.0002, std = 1.2211
+real images channel 2, mean = 0.0002, std = 1.3014
+initialize synthetic data from random real images
+[2022-11-30 19:34:15] training begins
+Expert Dir: ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:34:16] iter = 0000, loss = 1.0009
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 0
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:13<00:00, 76.58it/s]
+[2022-11-30 19:34:29] Evaluate: epoch = 1000 train time = 13 s train loss = 0.001646 train acc = 1.0000, test acc = 0.2770
+After 0 iterations, the model test accuracy on synthetic data is 27.700000000000003%
+0.2023
+0.1994
+0.201
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:34:37] iter = 0010, loss = 0.9963
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:34:43] iter = 0020, loss = 0.9851
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:34:50] iter = 0030, loss = 0.9661
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:34:57] iter = 0040, loss = 0.9624
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:35:04] iter = 0050, loss = 0.9838
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:35:11] iter = 0060, loss = 0.9799
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:35:18] iter = 0070, loss = 0.9770
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:35:25] iter = 0080, loss = 0.9735
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_0.pt
+[2022-11-30 19:35:32] iter = 0090, loss = 0.9505
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+loading file ./CIFAR10buffers\CIFAR10_NO_ZCA\ConvNet\replay_buffer_1.pt
+[2022-11-30 19:35:39] iter = 0100, loss = 0.9731
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 100
+==================== Final Results ====================
+
+
+
+
+
+ 99%|█████████████████████████████████████████████████████████████████████████████▍| 994/1001 [00:08<00:00, 113.08it/s]
+[2022-11-30 19:35:53] Evaluate: epoch = 1000 train time = 13 s train loss = 0.001291 train acc = 1.0000, test acc = 0.2735
+
+100%|██████████████████████████████████████████████████████████████████████████████| 1001/1001 [00:13<00:00, 73.16it/s]
+CUDNN STATUS: True
+Files already downloaded and verified
+Files already downloaded and verified
