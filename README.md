@@ -3,9 +3,10 @@
 This repository contains:
 
 1. Directory "DC_GM" which contains all the code and results for dataset condensation with gradient matching method in task 1.
+2. Directory "Nerual_Architecture_Search" which contains all the code and results for the implementation of neural architecture search on condensed MNIST and CIFAR10 datasets in taks 1.
 3. Directory "DC_TM" which contains all the code and results for dataset condensation with trajectory matching method in task 2.
 4. Directory "DC_DM" which contains all the code and results for dataset condensation with distribution matching method in task 2.
-2. README.md to introduce the task.
+5. README.md to introduce the task.
 
 
 ## Table of Contents
